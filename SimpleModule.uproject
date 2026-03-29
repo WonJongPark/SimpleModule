@@ -5,9 +5,21 @@
 	"Description": "",
 	"Modules": [
 		{
+			"Name": "MySpartaLog",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		},
+		{
 			"Name": "SimpleModule",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"MySpartaLog"
+			]
 		}
 	],
 	"Plugins": [
