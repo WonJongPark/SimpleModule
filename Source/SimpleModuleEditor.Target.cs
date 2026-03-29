@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// SimpleModuleEditor.Target.cs
 
 using UnrealBuildTool;
 using System.Collections.Generic;
@@ -9,7 +9,8 @@ public class SimpleModuleEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
-		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_6;
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_5;
 		ExtraModuleNames.Add("SimpleModule");
+		ExtraModuleNames.Add("MySpartaLog");
 	}
 }
