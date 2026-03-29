@@ -10,6 +10,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Materials/Material.h"
 #include "Engine/World.h"
+#include "Test/TestActor.h"
 
 ASimpleModuleCharacter::ASimpleModuleCharacter()
 {
@@ -51,7 +52,7 @@ void ASimpleModuleCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// stub
+	GetWorld()->SpawnActor(ATestActor::StaticClass());
 }
 
 void ASimpleModuleCharacter::Tick(float DeltaSeconds)
