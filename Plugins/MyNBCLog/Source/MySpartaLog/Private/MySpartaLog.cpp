@@ -5,12 +5,12 @@
 
 DEFINE_LOG_CATEGORY(LogMySpartaModule)
 
-void FMySpartaLogModule::StartupModule()
+void FMySpartaLog::StartupModule()
 {
     UE_LOG(LogMySpartaModule, Warning, TEXT("MySpartaLog is Start"));
 }
 
-void FMySpartaLogModule::ShutdownModule()
+void FMySpartaLog::ShutdownModule()
 {
     
 }

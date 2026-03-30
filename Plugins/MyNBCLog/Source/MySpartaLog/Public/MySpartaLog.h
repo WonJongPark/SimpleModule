@@ -7,7 +7,7 @@
 
 MYSPARTALOG_API DECLARE_LOG_CATEGORY_EXTERN(LogMySpartaModule, Log, All);
 
-class FMySpartaLogModule : public IModuleInterface
+class FMySpartaLog : public IModuleInterface
 {
 public:
     virtual void StartupModule() override;
