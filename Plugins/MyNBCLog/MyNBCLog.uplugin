@@ -2,20 +2,20 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "1.0",
-	"FriendlyName": "MyNBCLog",
-	"Description": "",
-	"Category": "Other",
-	"CreatedBy": "",
+	"FriendlyName": "My NBC Log Plugin",
+	"Description": "과제 10 교안용 로그 플러그인",
+	"Category": "Sparta",
+	"CreatedBy": "WonJong",
 	"CreatedByURL": "",
 	"DocsURL": "",
 	"MarketplaceURL": "",
 	"CanContainContent": true,
-	"IsBetaVersion": false,
-	"IsExperimentalVersion": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": true,
 	"Installed": false,
 	"Modules": [
 		{
-			"Name": "MyNBCLog",
+			"Name": "MySpartaLog",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
